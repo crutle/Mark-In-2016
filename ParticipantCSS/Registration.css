@@ -1,0 +1,140 @@
+﻿@font-face {
+    font-family:nexa bold;
+    src: url(Nexa Bold.otf);
+}
+
+@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+
+body {
+    background-color:#88d9e6;
+    color: #464646;
+}
+
+.button{
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#btnRegister{
+    font-family:Muli-Bold;
+    font-size:20px;
+    /*margin-left:35%;*/
+    /*margin-top:20px;*/
+}
+
+.centralize {
+    display:block;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-8 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+}
+
+
+.haveaccountlbl{
+    font-family:Muli;
+    font-size:20px;
+    display:block;
+    text-align:center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.herespan{
+    font-family:Muli;
+    text-decoration:underline;
+}
+
+h2 {
+    font-family: Muli-Bold !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3{
+     font-family:Montserrat-Medium;
+     font-size:23px;
+     
+
+}
+
+.inputdivs{
+    padding-top: 1em;
+}
+
+.inputform{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.inputpadding{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.infolbl{
+    font-family:Muli;
+    display:block;
+    font-size:18px;
+    text-align:center;
+    margin-top:2em;
+    margin-bottom: 2em;
+}
+
+#logoutButton{
+  font-family:Muli-SemiBold;
+  float:right;
+  width: 100px;
+}
+
+.form-control{
+    display:inline-block;
+    width: 300px;
+}
+
+.page-header1 {
+}
+
+.panel-body{
+    background-color:white;
+    height:100%;
+    font-family: Muli;
+    font-size: 20px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.registrationheaders{
+    font-family: Muli-Bold;
+    /*font-size:30px;*/
+    width:240px;
+    text-align:right;
+    padding-right: 1em;
+}

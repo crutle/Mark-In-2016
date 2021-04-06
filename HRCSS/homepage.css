@@ -1,0 +1,118 @@
+﻿/*@font-face {
+    font-family:nexa bold;
+    src: url(Nexa Bold.otf);
+}*/
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Muli-Light';
+    src: url('../fonts/Muli-Light.ttf') format('truetype');
+}
+
+
+.panel-heading{
+    background-color:#ba4b52;
+    /*height: 200px;*/
+    /*-moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;*/
+    color: #464646;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+h3{
+     font-family:Montserrat;
+     font-size:23px;
+}
+
+h7{
+     font-family:'Muli';
+     font-size:23px;
+}
+h2 {
+    font-family:'Muli';
+    /*margin-top:-10px;*/
+    font-size:14px;
+    color: white;
+
+}
+
+h4 {
+    font-family:'Muli';
+    /*margin-top:-10px;*/
+    font-size:18px;
+    /*margin-left:585px;*/
+    color: white;
+
+}
+h5 {
+    font-family:'Muli';
+    /*margin-top:-30px;*/
+    /*margin-left:80px;*/
+    font-size:25px;
+    color: white;
+
+}
+#SearchStaff{
+    font-family:'Muli-Light';
+    /*margin-left:-100px;*/
+   /*margin-top:-10px;*/
+   width: 150px;
+}
+#SearchName{
+   font-family:'Muli-Light'; 
+   /*margin-top:-10px;*/
+   width: 150px;
+}
+#searchNameandStaff{
+    font-family:'Muli-Bold';
+     width: 100px;
+}
+#AddStaff{
+    font-family:'Muli';
+     /*margin-top:15px;*/
+     /*margin-left:100px;*/
+     width: 150px;
+}
+.page-header1{
+    background-color:white;
+   
+}
+#box1{
+    margin-top:10px;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+    font-family:'Muli';
+   background-color: #fec0c4;
+ }
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+    font-family: Muli;
+}
+
+#resign{
+    margin-right:370px;
+    background-color:black;
+    color:white;
+    font-family:'Muli';
+}
+#edit, #confirm, #name, #position, #salary, #dateofbirth, #address{
+    font-family:'Muli';
+}

@@ -1,0 +1,118 @@
+﻿@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+
+html, body, form {
+
+}
+
+.btn btn-primary{
+
+}
+
+#btnVerify{
+    font-family: Muli-SemiBold;
+    font-size: 18px;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.btnCentralize {
+    padding-top:2em;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-lg-push-3 {
+
+}
+
+.container {
+    /*width: 80%;*/
+    background-color: #FFFFFF;
+    padding-top: 2em;
+}
+
+.clickherelbl{
+    font-family:Muli;
+    text-decoration:underline;
+}
+
+.centralize {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forgotpasswordlbl{
+    text-align: center;
+    display: block;
+}
+
+.IDinput{
+    width: 100%;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-family: Muli;
+    font-size: 24px;
+    text-align: center;
+}
+
+.logoimg {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.markinlbl {
+    color:#ba4b52;
+    font-family:Montserrat-Medium;
+    /*text-align: center;*/
+    font-size:76px;
+}
+
+.MarkInTitle{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.noaccountdiv{
+    font-family: Muli;
+    padding-top:1em;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:18px;
+}
+
+.noaccountlbl{
+    text-align: center;
+    display: block;
+}
+
+.useridlbl {
+    font-family:Muli;
+    display: block;
+    text-align: center;
+    font-size:32px;
+}
+
+.userinput {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}

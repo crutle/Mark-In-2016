@@ -1,0 +1,132 @@
+﻿@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+
+body {
+}
+#logoutButton{
+  font-family:'Muli';
+  width: 100px;
+}
+
+
+.panel-heading{
+   background-color:#19e5c1;
+   color: #464646;
+   padding-top: 1em;
+   padding-bottom: 2em;
+}
+
+h3{
+     font-family:Montserrat-Medium;
+     font-size:23px;
+}
+
+h2 {
+    font-family:'Muli';
+    margin-top: 0;
+    margin-bottom:0;
+    font-size:14px;
+}
+
+h4 {
+    font-family:'Muli';
+    font-size:18px;
+}
+
+h5 {
+    font-family:'Muli-Bold';
+    font-size:25px;
+}
+
+#SearchID{
+    font-family:'Muli';
+    width: 150px;
+}
+
+
+#SearchName{
+   font-family:'Muli'; 
+   width: 150px;
+}
+
+#SearchButton{
+    font-family:'Muli-Bold';
+     width: 100px;
+     color: #505050;
+}
+#AddEvent{
+    font-family:'Nexa Light';
+    width: 150px;
+}
+
+.page-header1{
+    background-color:white;
+    display: inline;
+}
+#box1{
+    margin-top:10px;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+    font-family:'Muli';
+   background-color: #c0f7a1;
+
+ }
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+    font-family: 'Muli';
+}
+
+.navbar {
+    list-style:none;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    float: right;
+    margin-left:10px;
+}
+
+
+#Stime{
+    margin-left:-20px;
+    margin-top:-4px;
+}
+#Etime{
+    margin-left:-20px;
+      margin-top:-4px;
+}
+
+#register, #cancel, #name, #venue, #start, #end, #descr {
+    font-family:'Muli';
+}
+
+.btn {
+    border: 0px solid transparent;
+}
+
+#attendees{
+    margin-right:270px;
+    background-color:black;
+    color:white;
+    font-family:'Muli';
+}

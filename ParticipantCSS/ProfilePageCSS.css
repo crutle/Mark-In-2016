@@ -1,0 +1,235 @@
+﻿@font-face {
+    font-family: 'muli-semibold';
+    src: url('../fonts/muli-semibold.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+
+.container {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#editButton{
+    font-family:'muli-bold';
+    font-size:16px;
+    width:120px;
+}
+
+#editimg{
+    padding-right:10px;
+}
+
+.form-control{
+    display:inline;
+    width: 50%;
+    height: 45px;
+}
+
+h3{
+   font-size:23px;
+    color:darkred;
+}
+
+h5{
+    font-family:muli-semibold;
+    font-size:25px;
+    color:black;
+    /*margin-top:10%;*/
+}
+
+.panel-body{
+    /*margin-top:50%;*/
+    background-color:white;
+    height:100%;
+    width: auto;
+}
+
+.page-header1{
+    background-color:white;
+    font-family:Montserrat-Medium;
+    padding-bottom:23px;
+}
+
+#printimg{
+    padding-right:10px;
+}
+
+#printButton{
+    font-family:muli-bold;
+    font-size:14px;
+    width:120px;
+    
+}
+
+#printButtonLayout {
+    padding-top: 60%;
+}
+
+.QR{
+    padding:30px;
+}
+
+.tophalf {
+    height: 55%;
+    background-color:#88d9e6;
+    margin: 0;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.tophalfwidth {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userinfo{
+    width:650px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: Muli;
+    font-size: 22px;
+    padding-top: 3.5em;
+
+}
+
+.userinfoheader{
+    display:inline-block;
+    width: 200px;
+}
+
+.userinfooutput{
+    display:inline-block;
+    width: 400px;
+
+}
+.userheader{
+    font-family:'muli-semibold';
+    display:inline-block;
+    width: 200px;
+    float: left;
+    text-align: left;
+    /*text-align: left;*/
+    /*font-size:30px;*/
+}
+
+.useroutput{
+    font-family:'muli';
+    display:inline-block;
+    font-weight:normal !important;
+    width:  30em;
+
+    /*font-size:30px;*/
+}
+
+.navbar {
+    list-style:none;
+    font-family:Montserrat-Medium;
+    font-size: 23px;
+    color: darkred;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    padding: 0;
+    /*width:100%;*/
+    float: right;
+   /* list-style-type:none;*/
+  /* display: block;*/
+}
+
+ul li {
+    display: block;
+    position: relative;
+    margin-left:10px;
+    float: left;
+    font-family:muli-semibold;
+    border: 0px solid transparent !important;
+}
+
+.rightalign {
+    text-align: right;
+}
+
+#logoutButton{
+ font-family:'muli';
+  width:100px;
+  float: right;
+  display: block;
+  
+}
+
+.btn btn-primary{
+   
+}
+
+#confirmButton{
+    font-weight: bold;
+    background-color:greenyellow;
+   width:50px;
+   height: 40px;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-size: 15px;
+}
+
+#cancelButton{
+   background-color:indianred;
+   width:auto;
+   height: 40px;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-size: 15px;
+}
+
+.divider{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+
+/*.buttonsLayout{
+    display: inline-block;
+    float: right;
+}
+
+#eventsButton{
+    border: 0px solid transparent;
+    font-family:Muli-SemiBold;
+}
+
+#contactsButton{
+    border: 0px solid transparent;
+    font-family:Muli-SemiBold;
+}
+#profileButton{
+    border: 0px solid transparent;
+    font-family:Muli-SemiBold;
+}*/
+
+@media (max-width: 991px) {
+ #printButtonLayout {
+     padding:0;
+ }
+}

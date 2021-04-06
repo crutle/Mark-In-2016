@@ -1,0 +1,213 @@
+﻿@font-face {
+    font-family:Muli-Semibold;
+    src: url(Muli-Semibold.otf);
+}
+
+@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+
+/*.alleventslbl{
+     margin-top:10px;
+    font-family:'Muli';
+    text-decoration:underline;
+    font-size:20px;
+}*/
+
+body {
+}
+
+#box1{
+    margin-top:10px;
+}
+
+.bynamespan {
+   font-family:'Muli';
+    margin-top:-10px;
+     margin-bottom:0px;
+    font-size:14px;
+    color: white;
+
+}
+
+.byeventidspan {
+    font-family:'Muli';
+    margin-top:-10px;
+    margin-bottom:0px;
+    font-size:14px;
+    color: white;
+
+}
+
+.container {
+    width:65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family:'Muli';
+    margin-top: 0;
+    margin-bottom:0;
+    font-size:14px;
+}
+
+h3{
+     font-family:Montserrat-Medium;
+     font-size:23px;
+}
+
+h4 {
+    font-family:'Muli';
+    font-size:18px;
+}
+
+h5 {
+    font-family:'Muli-Bold';
+    font-size:25px;
+}
+
+h7{
+     font-family:'Muli';
+     font-size:23px;
+}
+
+#logoutButton{
+  font-family:'Muli';
+  width: 100px;
+}
+
+#mainnav {
+    font-size:18px;
+    font-family: Muli;
+}
+
+#messageBoxStaff{
+    font-family:'Muli';
+     color:white;
+     margin-top:-91px;
+     font-size:20px;
+       margin-left:150px;
+}
+#messageBoxName{
+    font-family:'Muli';
+     color:white;
+     margin-top:-41px;
+     font-size:20px;
+       margin-left:150px;
+}
+
+.Name{
+    font-family: 'Muli-Semibold';
+    margin-left:80px;
+    font-size:20px;
+    color:white;
+}
+
+.panel-heading{
+    background-color:#88d9e6;
+   color: #464646;
+   padding-top: 1em;
+   padding-bottom: 2em;
+
+}
+
+.page-header1{
+    background-color:white;  
+}
+
+
+#SearchName{
+    font-family:'Muli';
+   width: 140px;
+}
+#SearchID{
+   font-family:'Muli';
+   width:150px; 
+}
+#searchIDandName{
+    font-family:Muli-Semibold;
+     width: 100px;
+}
+
+#searchNameandStaff{
+    font-family:'Muli-Bold';
+     width: 100px;
+     color: #505050;
+}
+
+#SearchStaff{
+    font-family:'Muli';
+    /*margin-left:-100px;*/
+   /*margin-top:-10px;*/
+   width: 140px;
+}
+
+/*.StaffId{
+    font-family: 'Muli-Semibold';
+    margin-left:80px;
+    font-size:20px;
+    color:white;
+   
+
+}*/
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+    font-family:Muli;
+   background-color: #e1f2fe;
+   vertical-align:middle;
+ }
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+    font-family:Muli;
+   /*background-color: white;*/
+   vertical-align:middle;
+ }
+
+
+#cancel, #register, #eventname, #location, #startdatelbl, #enddatelbl, #description, #name, #venue, #start, #end, #descr{
+    font-family:'Muli';
+}
+
+#Stime{
+    margin-left:-20px;
+    margin-top:-4px;
+}
+#Etime{
+    margin-left:-20px;
+      margin-top:-4px;
+}
+
+.navbar {
+    list-style:none;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    float: right;
+    margin-left:10px;
+    border: 0px solid transparent !important;
+}
+
+a{
+    font-family:Muli-SemiBold;
+}
+

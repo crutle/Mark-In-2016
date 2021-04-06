@@ -1,0 +1,205 @@
+﻿@font-face {
+    font-family:nexa bold;
+    src: url(Nexa Bold.otf);
+}
+
+@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+
+html, body, form {
+    background-color: #88d9e6;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+body{
+    height: 100%;
+}
+
+#btnBack{
+    font-family:Muli-SemiBold;
+    font-size: 17px;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+#btnLogin{
+    font-family:Muli-SemiBold;
+    font-size: 17px;
+    margin-top: 1em;
+}
+
+.btnCentralize {
+    /*padding-top:2em;*/
+    width: 205px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #88d9e6 !important;
+    color: #000;
+}
+
+.container {
+    width: 65%;
+    background-color: #FFFFFF;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow: auto;
+    z-index: -1;
+}
+
+.centralize {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clickherelbl{
+    font-family:Muli;
+    text-decoration:underline;
+    /*font-size:20px;*/
+}
+
+.forgotpasswordlbl{
+    font-family:Muli;
+    text-decoration:underline;
+    text-align: center;
+    display: block;
+}
+
+.IDinput{
+    width: 100%;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-family: Muli;
+    font-size: 24px;
+    text-align: center;
+}
+
+.logoimg {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.markinlbl {
+    color:#ba4b52;
+    font-family:Montserrat-Medium;
+    text-align: center;
+    font-size:72px;
+}
+
+.MarkInTitle{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.namelbl{
+    display:block;
+    /*text-align: left;
+    font-size:30px;*/
+}
+
+.nameoutputlbl{
+    display:block;
+    font-weight:normal;
+    /*font-size:30px;*/
+}
+
+.noaccountdiv{
+    padding-top:2em;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:18px;
+    font-family:Muli;
+}
+
+.noaccountlbl{
+    text-align: center;
+    display: block;
+}
+
+.passwordlbl{
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-family: Muli;
+    font-size: 25px;
+    text-align: center;
+}
+
+.typelbl{
+    font-weight:bold;
+    display: block;
+    /*text-align: right;
+    font-size:30px;*/
+}
+
+.typeoutputlbl{
+    display:block;
+    font-weight:normal;
+    /*font-size:30px;*/
+}
+
+.userinfo{
+    /*display:block;*/
+    width:410px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:Muli;
+    font-size: 26px;
+}
+
+.userinfoheader{
+    display: inline-block;
+    width: 200px;
+    font-family:Muli-Bold;
+    font-weight: bold;
+}
+
+.userinfooutput{
+    font-family:Muli;
+    display: inline-block;
+    font-weight: normal !important;
+}
+
+.useridlbl {
+    display:block;
+    /*text-align: left;
+    font-size:30px;*/
+}
+
+.useridoutputlbl{
+    display:block;
+    font-weight:normal;
+    /*font-size:30px;*/
+}
+
+.userinput {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}

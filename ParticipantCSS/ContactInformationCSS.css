@@ -1,0 +1,170 @@
+﻿@font-face {
+    font-family:Muli-Semibold;
+    src: url(Muli-Semibold.otf);
+}
+
+@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+
+body {
+}
+
+#box1{
+    margin-top:10px;
+}
+
+.container {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.bynamespan {
+   font-family:'Muli';
+    margin-top:-10px;
+     margin-bottom:0px;
+    font-size:14px;
+
+}
+
+.bycompanyspan {
+    font-family:'Muli';
+    margin-top:-10px;
+    margin-bottom:0px;
+    font-size:14px;
+
+}*/
+
+h2 {
+    font-family:'Muli';
+    margin-top: 0;
+    margin-bottom:0;
+    font-size:14px;
+}
+
+h3{
+     font-family:Muli-Semibold;
+     font-size:23px;
+}
+
+h4 {
+    font-family:'Muli';
+    font-size:18px;
+
+}
+h5 {
+    font-family:'Muli-Bold';
+    /*margin-left:80px;*/
+    font-size:25px;
+}
+
+
+#logoutButton{
+  font-family:'Muli';
+  width: 100px;
+}
+
+#messageBoxStaff{
+    font-family:'Muli';
+     color:white;
+     margin-top:-91px;
+     font-size:20px;
+       margin-left:150px;
+}
+#messageBoxName{
+    font-family:'Muli';
+     color:white;
+     margin-top:-41px;
+     font-size:20px;
+       margin-left:150px;
+}
+
+.Name{
+    font-family: 'Muli-Semibold';
+    margin-left:80px;
+    font-size:20px;
+    color:white;
+   
+
+}
+
+.panel-heading{
+    background-color:#88d9e6;
+    padding-top: 1em;
+   padding-bottom: 2em;
+}
+
+.page-header1{
+    background-color:white;
+}
+
+
+#searchName{
+    font-family:'Muli';
+   width: 150px;
+}
+#searchCompany{
+   font-family:'Muli';
+   width:150px;   
+}
+
+#searchIDandName{
+    font-family:'Muli-Bold';
+     width: 100px;
+}
+
+.StaffId{
+    font-family: 'Muli-Semibold';
+    margin-left:80px;
+    font-size:20px;
+    color:white;
+   
+
+}
+
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+    font-family:'Muli';
+   background-color: #e1f2fe;
+ }
+
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+    font-family:'Muli';
+   background-color: white;
+ }
+
+.navbar {
+    list-style:none;
+    font-family:Montserrat-Medium;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    float: right;
+    margin-left:10px;
+    border: 0px solid transparent !important;
+}
+
+a{
+    font-family:Muli-SemiBold;
+}

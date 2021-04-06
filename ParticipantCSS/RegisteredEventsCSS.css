@@ -1,0 +1,176 @@
+﻿@font-face {
+    font-family:nexa bold;
+    src: url(Nexa Bold.otf);
+}
+
+@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+
+.alleventslbl{
+    margin-top:10px;
+    font-family:'muli';
+    text-decoration:underline;
+    font-size:20px;
+}
+
+.registeredeventslbl {
+    margin-top:10px;
+    font-family:'muli';
+    text-decoration:underline;
+    font-size:20px;
+}
+
+body {
+}
+
+#box1{
+    margin-top:10px;
+}
+
+.bynamespan {
+   font-family:'muli';
+     margin-bottom:0px !important;
+    font-size:14px;
+    font-weight:normal;
+}
+
+.bystatusspan {
+    font-family:'muli';
+    margin-bottom:0px !important;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.container {
+    width:65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family:'Muli';
+    margin-top: 0;
+    margin-bottom:0;
+    font-size:14px;
+}
+
+h3{
+     font-family:Muli-Bold;
+     font-size:23px;
+}
+
+h4 {
+    font-family:'muli';
+    font-size:18px;
+
+}
+h5 {
+    font-family:'muli-bold';
+    font-size:25px;
+
+}
+
+
+#logoutButton{
+  font-family:'muli';
+  width: 100px;
+}
+
+#mainnav {
+    font-size:18px;
+    font-family: Muli;
+}
+
+#messageBoxStaff{
+    font-family:'muli';
+     /*margin-top:-91px;*/
+     font-size:20px;
+       /*margin-left:150px;*/
+}
+#messageBoxName{
+    font-family:'muli';
+     font-size:20px;
+}
+
+.Name{
+    font-family: 'muli-semibold';
+    font-size:20px;
+   
+
+}
+
+.panel-heading{
+    background-color:#88d9e6;
+    height: 100%;
+    color: #464646;
+    padding-top: 1em;
+   padding-bottom: 2em;
+}
+
+.page-header1{
+    background-color:white;  
+}
+
+
+#searchName{
+    font-family:'muli';
+   width: 150px;
+}
+#searchStatus{
+   font-family:'muli'; 
+   width:150px;
+}
+#searchStatusandName{
+    font-family:Muli-SemiBold;
+     width: 100px;
+}
+
+.StaffId{
+    font-family: 'muli-semibold';
+    font-size:20px;
+}
+
+
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+    font-family:'muli';
+   background-color: #e1f2fe;
+ }
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+    font-family:'muli';
+ }
+
+.navbar {
+    font-family:Montserrat-Medium;
+    list-style:none;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    float: right;
+    margin-left:10px;
+    border: 0px solid transparent !important;
+}
+
+a{
+    font-family:Muli-SemiBold;
+}

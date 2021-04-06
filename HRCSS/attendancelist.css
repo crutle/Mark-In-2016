@@ -1,0 +1,143 @@
+﻿body {
+}
+@font-face {
+    font-family:nexa bold;
+    src: url(Nexa Bold.otf);
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('../fonts/Muli-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../fonts/Muli-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Muli-Light';
+    src: url('../fonts/Muli-Light.ttf') format('truetype');
+}
+
+#logoutButton{
+  font-family:'Muli';
+  margin-left:890px;
+  width: 100px;
+}
+
+.panel-heading{
+    background-color:#ba4b52;
+    /*height: 200px;*/
+    /*-moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;*/
+    color: #464646;
+    padding-top: 1em;
+    padding-bottom: 2em;
+
+}
+
+h3{
+     font-family:Montserrat;
+     font-size:23px;
+}
+
+h2 {
+    font-family:'Muli';
+    /*margin-top:-10px;
+    margin-bottom:0px;*/
+    font-size:14px;
+    color: white;
+
+}
+
+h4 {
+    font-family:'Muli';
+    /*margin-top:-10px;*/
+    font-size:18px;
+    /*margin-left:585px;*/
+    color: white;
+
+}
+h5 {
+    font-family:'Muli-Bold';
+    /*margin-top:-30px;
+    margin-left:80px;*/
+    font-size:25px;
+    color: white;
+
+}
+#SearchPresent{
+    font-family:Muli-Light;
+   width: 150px;
+}
+#SearchDate{
+   font-family:Muli-Light; 
+}
+
+#searchNameandStaff{
+    font-family:Muli-Bold;
+     width: 100px;
+}
+
+.page-header1{
+    background-color:white;
+   
+   
+}
+#box1{
+    margin-top:10px;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+    font-family:'Muli';
+   background-color: #fec0c4;
+ }
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+    font-family: Muli;
+}
+
+.StaffId{
+    font-family: Muli-SemiBold;
+    /*margin-left:80px;*/
+    font-size:20px;
+    color:white;
+   
+
+}
+.Name{
+    font-family: Muli-SemiBold;
+    /*margin-left:80px;*/
+    font-size:20px;
+    color:white;
+   
+
+}
+#messageBoxStaff{
+    font-family:'Muli';
+     color:white;
+     /*margin-top:-91px;*/
+     font-size:20px;
+       /*margin-left:150px;*/
+}
+#messageBoxName{
+    font-family:'Muli';
+     color:white;
+     /*margin-top:-41px;*/
+     font-size:20px;
+       /*margin-left:150px;*/
+}
+.staffinformation{
+     /*margin-top:10px;*/
+    font-family:'Muli';
+    text-decoration:underline;
+    font-size:20px;
+}
